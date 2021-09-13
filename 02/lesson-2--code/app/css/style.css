@@ -1,0 +1,26 @@
+/* p {
+  font-size: 24px;  
+  font-family: Arial;
+  font-style: italic;
+  font-weight: 800;
+  font-weight: 400;
+  color: brown;
+  background: orange;
+} */
+
+.one {
+    color: brown;
+    background:pink;
+    min-height: 20px;
+}
+
+.two {
+    color: green;
+    font-weight: bold;
+    background: orange;
+    width: 50%;
+    height: 100px;
+    padding: 20px 0 0 0;
+    /* padding-top : 30px; */
+    margin: 40px;
+}

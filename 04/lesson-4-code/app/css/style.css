@@ -1,0 +1,31 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background:orange;
+    font-style: italic;
+}
+
+.bg-grey {
+    background-color: #f1f1f1;
+}
+
+.my-email {
+    border: none;
+}
+
+.my-email td, .my-email th {
+    border: none;
+}
