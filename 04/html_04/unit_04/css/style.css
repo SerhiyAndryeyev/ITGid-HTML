@@ -1,49 +1,70 @@
 * {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    outline: none;
-    box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  outline: none;
+  box-sizing: border-box;
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 .site-header img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-.site-header h1, .site-header h2 {
-    color: #222;
-    font-size: 26px;
-    text-align: center;
-    margin: 30px auto;
-    text-transform: uppercase;
+.site-header h1,
+.site-header h2 {
+  color: #222;
+  font-size: 26px;
+  text-align: center;
+  margin: 30px auto;
+  text-transform: uppercase;
 }
 
 .site-header h2 {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .site-header a {
-    color: #3b0b99;
+  color: #3b0b99;
 }
 
 .site-header h2 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 h1 {
-    text-transform: uppercase;
+  text-transform: uppercase;
+  margin: 10px auto 10px 0;
 }
 
 .container {
-    max-width: 1000px;
-    width: 80%;
-    margin: 0 auto;
-    background: #f1f1f1;
-    padding: 10px;
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  background: #f1f1f1;
+  padding: 10px;
 }
 
+th,
+td {
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+}
+
+.header-table {
+  background-color: #dcdcdc;
+}
+
+.header-table-2 {
+  background-color: orangered;
+  color: white;
+  font-weight: 400;
+}
+
+.line-table th,
+td {
+  border-bottom: 1px solid orange;
+}
