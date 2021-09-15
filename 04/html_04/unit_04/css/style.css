@@ -8,6 +8,7 @@
 
 table {
   border-collapse: collapse;
+  width: 100%;
 }
 
 .site-header img {
@@ -54,17 +55,39 @@ td {
   padding: 10px;
 }
 
-.header-table {
+#customers .header-table {
   background-color: #dcdcdc;
 }
 
-.header-table-2 {
+.users .header-table {
   background-color: orangered;
   color: white;
   font-weight: 400;
 }
 
+.scroll-block {
+  overflow-x: scroll;
+}
+
+.line-table td,
 .line-table th,
-td {
+.line-table tr {
+  border: none;
+}
+
+.line-table tr {
   border-bottom: 1px solid orange;
+}
+
+.first-td {
+  font-weight: 800;
+}
+
+.users,
+.line-table {
+  text-align: center;
+}
+
+.hash-tag {
+  text-shadow: 0 0 3px grey;
 }
