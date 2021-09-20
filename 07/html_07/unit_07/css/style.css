@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.site-header img {
+  max-width: 100%;
+}
+
+.site-header h1,
+.site-header h2 {
+  color: #222;
+  font-size: 26px;
+  text-align: center;
+  margin: 30px auto;
+  text-transform: uppercase;
+}
+
+.site-header h2 {
+  font-size: 22px;
+}
+
+.site-header a {
+  color: #3b0b99;
+}
+
+.site-header h2 a {
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  background: #f1f1f1;
+  padding: 10px;
+}
+
+p {
+  margin: 20px;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+.bg-orange {
+  background: orange;
+}
+
+.bg-orangered {
+  background: orangered;
+}
+
+.bg-brown {
+  background: brown;
+}
+
+.bg-darkcyan {
+  background: darkcyan;
+}
+
+.bg-dodgerBlue {
+  background: DodgerBlue;
+}
+
+.wrap {
+  margin: 50px;
+  border: 2px solid darkcyan;
+  min-height: 20px;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+}
+
+figure {
+  text-align: center;
+  font-style: italic;
+  opacity: 0.75;
+}
+
+/* Task-1 */
+
+.task-1 .t-1 {
+  float: left;
+}
+
+/* Task-2 */
+
+.task-2 .t-1 {
+  float: left;
+}
+
+.task-2 .t-2 {
+  float: left;
+}
+
+/* Task-3 */
+
+.task-3 .t-1 {
+  float: left;
+  width: 50%;
+}
+
+.task-3 .t-2 {
+  float: left;
+  width: 50%;
+}
+
+/* Task-4 */
+
+.task-4 .b-1 {
+  float: left;
+  width: 50%;
+}
+
+/* без этого стиля тот же результат */
+/* .task-4 .b-2 { 
+  float: left;
+  width: 50%;
+} */
+
+/* Task-5 */
+
+.task-5 .b-1 {
+  float: left;
+  width: 50%;
+}
+
+.task-5 .b-2 {
+  float: left;
+  width: 50%;
+}
+
+.task-5 .b-3 {
+  float: left;
+  width: 33.333%;
+}
+
+.task-5 .b-4 {
+  float: left;
+  width: 33.333%;
+}
+
+.task-5 .b-5 {
+  float: left;
+  width: 33.333%;
+}
+
+/* Task-6 */
+
+.task-6 footer,
+.task-6 main,
+.task-6 aside,
+.task-6 header {
+  height: 100px;
+  float: left;
+}
+
+.task-6 header {
+  width: 100%;
+}
+
+.task-6 aside {
+  width: 30%;
+  float: left;
+}
+
+.task-6 main {
+  width: 70%;
+  float: left;
+}
+
+.task-6 footer {
+  width: 100%;
+}
