@@ -190,21 +190,91 @@ p {
   grid-area: footer;
 }
 
-.out-4 news-1 {
+.out-3 news-1 {
   grid-area: news-1;
 }
 
-.out-4 news-2 {
+.out-3 news-2 {
   grid-area: news-2;
 }
-.out-4 news-3 {
+.out-3 news-3 {
   grid-area: news-3;
 }
 
-.out-4 news-4 {
+.out-3 news-4 {
   grid-area: news-4;
 }
 
 /* =============== task 4 ============================= */
 
+.out-4 {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "news-1 news-1 news-2"
+    "news-3 news-4 news-4"
+    "footer footer footer";
+  grid-template-rows: 50px 200px 200px 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.out-4 header {
+  grid-area: header;
+}
+
+.out-4 footer {
+  grid-area: footer;
+}
+
+.out-4 .news-1 {
+  grid-area: news-1;
+}
+
+.out-4 ..news-2 {
+  grid-area: news-2;
+}
+.out-4 ..news-3 {
+  grid-area: news-3;
+}
+
+.out-4 .news-4 {
+  grid-area: news-4;
+}
+
 /* =============== task 5 ============================= */
+
+.out-5 {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "news-1 news-1 news-1"
+    "news-2 news-3 news-4"
+    "footer footer footer";
+  grid-template-rows: 50px 200px 200px 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.out-5 header {
+  grid-area: header;
+}
+
+.out-5 footer {
+  grid-area: footer;
+}
+
+.out-5 .news-1 {
+  grid-area: news-1;
+}
+
+.out-5 .news-2 {
+  grid-area: news-2;
+}
+.out-5 .news-3 {
+  grid-area: news-3;
+}
+
+.out-5 .news-4 {
+  grid-area: news-4;
+}
