@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.site-header img {
+  max-width: 100%;
+}
+
+.site-header h1,
+.site-header h2 {
+  color: #222;
+  font-size: 26px;
+  text-align: center;
+  margin: 30px auto;
+  text-transform: uppercase;
+}
+
+.site-header h2 {
+  font-size: 22px;
+}
+
+.site-header a {
+  color: #3b0b99;
+}
+
+.site-header h2 a {
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+figure {
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  box-shadow: 0 0 10px #c0c0c0;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+p {
+  margin: 20px;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  background: #f1f1f1;
+  padding: 10px;
+}
+
+.bg-orange {
+  background: orange;
+}
+
+.bg-orangered {
+  background: orangered;
+}
+
+.bg-brown {
+  background: brown;
+}
+
+.bg-darkcyan {
+  background: darkcyan;
+}
+
+.bg-dodgerBlue {
+  background: DodgerBlue;
+}
+
+.out-1,
+.out-2,
+.out-3,
+.out-4,
+.out-5,
+.out-6,
+.out-7 {
+  margin: 30px auto;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+  margin: 1%;
+}
+
+/*------ Task-1 -----*/
+
+.block-1 {
+  animation-name: circle;
+  animation-iteration-count: 3;
+  animation-duration: 3s;
+}
+
+@keyframes circle {
+  from {
+  }
+  to {
+    border-radius: 50%;
+    background: orangered;
+  }
+}
+
+/*----- Task-2 -----*/
+
+.block-2 {
+  animation-name: block-moving;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+  animation-direction: alternate;
+}
+
+@keyframes block-moving {
+  0% {
+    margin-left: 1%;
+  }
+  50% {
+    margin-left: calc(100% - 150px);
+  }
+  100% {
+    margin-left: 1%;
+  }
+}
+
+/*----- Task-3 -----*/
+
+.out-3:hover > img {
+  animation-name: rotation;
+  animation-duration: 1s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*----- Task-4 -----*/
+
+.out-4 {
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  border: 2px solid black;
+}
+.out-4-inner {
+  position: relative;
+  width: 300px;
+  height: 35px;
+  left: -100px;
+}
+
+.out-4-inner span {
+  display: block;
+  float: left;
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+.out-4:hover > .out-4-inner {
+  animation-name: inner-block-moving;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes inner-block-moving {
+  0% {
+    left: -100px;
+  }
+  50% {
+    left: 0;
+  }
+  100% {
+    left: -200px;
+  }
+}
+
+/*----- Task-5 -----*/
+
+.out-5 {
+  width: 132px;
+  height: 132px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.out-5-inner {
+  height: 128px;
+  width: 395px;
+  position: relative;
+  animation-name: slider;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -128px;
+  }
+  100% {
+    left: -256px;
+  }
+}
+
+/*----- END -----*/
