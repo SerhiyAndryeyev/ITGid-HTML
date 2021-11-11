@@ -1,0 +1,48 @@
+const data = {
+  first_name: 'Serhiy',
+  last_name: 'Andryeyev',
+  job_title: 'WEB DEVELOPER',
+  photo: 'images/my-cv-photo.png',
+  phone: '+380630720972',
+  email: 's.andryeyev@gmail.com',
+  skype: 'Skype: cheliksa',
+  linkedin: 'https://www.linkedin.com/in/serhiy-andryeyev-45164b2b',
+  address: 'Ukraine, Lviv',
+  skills: [
+    'Team Leadership',
+    'Product Lifecycle Management',
+    'SDLC',
+    'Agile / Scrum Methodologies',
+    'Team Facilitation',
+    'Product Roadmaps',
+    'Requirements Gathering & Analysis',
+    'Market & Competitor Research',
+    'Troubleshooting',
+    'QC Testing',
+    'User Acceptance Testing',
+    'Project Management',
+    'Product Management',
+    'Backlog Prioritization',
+    'Upper-Intermediate English',
+  ],
+  education: [
+    [
+      '1992-1998',
+      'Lviv Polytechnic Institute<br>Specialty: Automated control systems<br>Qualification: software engineer',
+    ],
+    [
+      '1996-1996',
+      'Ukraine Statistics Ministry<br>Specialty: Accounting<br>Qualification: Accountant',
+    ],
+    ['2011', 'Project Management Course'],
+    ['2018', 'Business Analysis Course'],
+    ['2019', 'Product Management Course'],
+    ['2020', 'Project Management Course'],
+    ['2020', 'PM Hard Skill Course'],
+  ],
+  achievements: [
+    'Marketer of the Year Academic Scholorship Deans List: 2006-2007, National Merit Scholarship Corporation',
+  ],
+  profile:
+    "I have leadership skills, strong analytical skills, flexible and critical thinking, empathy, successful team management experience, successful project management experience; strong experience in identifying and analyzing needs and requirements, modeling and implementation of business processes and their optimization and automation, good knowledge of various ERP, CRM systems and other business applications, e-documentation, have strong knowledge of B2B and B2C business processes and IT infrastructures of enterprises. I worked with banks, healthcare, insurance, energy, distributors, retail, FMCG, HoReCa, providers, e-commerce, and other enterprises. I can apply my experience of 3,5 years experience as a Product Owner that gave me a good knowledge of Business Analysis and Product Management. I own the product lifecycle from initial concept to delivery. I'm about 20 years in IT including sales and client-facing experience, negotiation, managing projects, and deal-closing skills. I'm passionate about new technologies and now I want to switch to web-development.",
+};

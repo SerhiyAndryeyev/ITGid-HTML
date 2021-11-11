@@ -21,6 +21,11 @@ h6 {
   font-family: 'IBM Plex Serif', serif;
 }
 
+.h2-left {
+  font-size: 1.65rem;
+  text-align: center;
+}
+
 article {
   padding: 20px;
 }
